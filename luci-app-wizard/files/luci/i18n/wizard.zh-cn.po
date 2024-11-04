@@ -13,6 +13,12 @@ msgstr "上网设置"
 msgid "Wireless Settings"
 msgstr "无线设置"
 
+msgid "wifiname"
+msgstr "WiFi名称"
+
+msgid "wifipassword"
+msgstr "WiFi密码"
+
 msgid "If you are using this router for the first time, please configure it here."
 msgstr "如果你首次使用这个路由器，请在这里简单设置。"
 
