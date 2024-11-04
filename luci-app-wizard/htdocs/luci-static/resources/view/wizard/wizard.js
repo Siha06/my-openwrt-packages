@@ -69,10 +69,10 @@ return view.extend({
 		o.cast = 'string';
 
 		if (has_wifi) {
-			o = s.taboption('wifisetup', form.Value, 'wifi_ssid', _('wifiname'));
+			o = s.taboption('wifisetup', form.Value, 'wifi_ssid', _('<abbr title=\"Extended Service Set Identifier\">ESSID</abbr>'));
 			o.datatype = 'maxlength(32)';
 
-			o = s.taboption("wifisetup", form.Value, "wifi_key", _('wifipassword'));
+			o = s.taboption("wifisetup", form.Value, "wifi_key", _("Key"));
 			o.datatype = 'wpakey';
 			o.password = true;
 		}
