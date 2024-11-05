@@ -14,7 +14,7 @@ msgid "Wireless Settings"
 msgstr "无线设置"
 
 msgid "wifiname"
-msgstr "WiFi名称"
+msgstr "WiFi名字"
 
 msgid "wifipassword"
 msgstr "WiFi密码"
