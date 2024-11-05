@@ -114,7 +114,7 @@ add_wizard() {
 		for idx in `seq 0 64`; do
 			uci get wireless.@wifi-iface[$idx] 2>/dev/null || break
 			[ "$(uci get wireless.@wifi-iface[$idx].mode 2>/dev/null)" = "ap" ] && {
-				uci set wireless.default_radio0.ssid="${wifi_ssid}-2.4G"
+				uci set wireless.default_radio0.ssid="${wifi_ssid}"
 				uci set wireless.default_radio1.ssid="${wifi_ssid}-5G"
 				uci set wireless.@wifi-iface[$idx].key="${wifi_key}"
 				uci set wireless.@wifi-iface[$idx].encryption='psk2'
